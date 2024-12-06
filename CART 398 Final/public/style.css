@@ -1,0 +1,85 @@
+@font-face {
+    font-family: MyCustomFont;
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+ 
+  }
+
+
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c4aa85;
+    color: #6175db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    
+    position:fixed;
+    top: 30px;
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #261515;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* padding: 70px;
+    padding-bottom: 300px; */
+    /* margin: 40px; */
+}
+
+p{
+    text-align: left;
+    margin-left: 60px;
+}
+
+
+#textField1{
+    position:relative;
+    background: #ffffff;
+    border:1px solid #261515;
+    border-radius: 0px;
+    /* font-size: 10px; */
+    font-size: 0.05em; /* 40px/16=2.5em */
+}
+
+
+button {
+    transform: translateY(10px);
+    padding-left: 5px;
+
+}
+
+
+
+footer {
+    position:fixed;
+    bottom:0;
+
+
+}
+
+#images{
+    width: 400px;
+    justify-content: center;
+}
+
+img{
+    
+    width: 200px; /* Set the width; height adjusts proportionally */
+    height: auto; /* Automatically calculate height */
+    
+
+}
+
+
+
+
